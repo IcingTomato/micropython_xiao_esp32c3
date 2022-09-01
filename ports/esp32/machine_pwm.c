@@ -244,7 +244,8 @@ STATIC void set_freq(machine_pwm_obj_t *self, unsigned int freq, ledc_timer_conf
         timer->freq_hz = freq;
         timer->clk_cfg = LEDC_USE_APB_CLK;
         if (freq < EMPIRIC_FREQ) {
-            timer->clk_cfg = LEDC_USE_REF_TICK;
+            // timer->clk_cfg = LEDC_USE_REF_TICK;
+            timer->clk_cfg = LEDC_USE_RTC8M_CLK;
         }
 
         // Set frequency

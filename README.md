@@ -1,3 +1,7 @@
+> This repository has been given back to Seeed Studio, the company I used to work for, so it is no longer being updated.
+> For further infomation, please refer [XIAO ESP32C3 Wi-Fi Tracker using MicroPython](https://wiki.seeedstudio.com/XIAO_ESP32C3_MicroPython/)
+
+
 [![CI badge](https://github.com/micropython/micropython/workflows/unix%20port/badge.svg)](https://github.com/micropython/micropython/actions?query=branch%3Amaster+event%3Apush) [![codecov](https://codecov.io/gh/micropython/micropython/branch/master/graph/badge.svg?token=I92PfD05sD)](https://codecov.io/gh/micropython/micropython)
 
 The MicroPython project
